@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DiaDaily Project</string>
+    <string name="title_reminders">Reminders</string>
+    <string name="title_exercise">Exercise</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_food">Food</string>
+    <string name="FoodName">Food Name</string>
+    <string name="SugarGrams">Sugar (g)</string>
+    <string name="Time">Time</string>
+    <string name="DateEaten">Date</string>
+    <string name="ExerciseType">Exercise Type</string>
+    <string name="Duration">Duration</string>
+    <string name="CaloriesBurned">Calories Burned</string>
+
+    <string-array name="Exercises">
+        <item>Walk</item>
+        <item>Jog</item>
+        <item>Run</item>
+    </string-array>
+
+</resources>

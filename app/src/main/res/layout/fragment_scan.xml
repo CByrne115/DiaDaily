@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ui.scan.ScanFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barcode Scanner"
+            android:layout_marginTop="25dp"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textAlignment="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/cameraBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/black"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/photosBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/black"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageV"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_dashboard_black_24dp"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/black"
+            android:text="Scan"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:text="Result:"/>
+
+
+        <TextView
+            android:id="@+id/resultV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

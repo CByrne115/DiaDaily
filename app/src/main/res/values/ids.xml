@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_add_food" type="id" />
+    <item name="btn_add_exercise" type="id" />
+    <item name="btn_viewAll" type="id" />
+    <item name="et_date" type="id" />
+    <item name="et_time" type="id" />
+    <item name="et_sugar" type="id" />
+    <item name="et_foodName" type="id" />
+    <item name="lv_foodList" type="id" />
+    <item name="et_exercise" type="id" />
+    <item name="et_duration" type="id" />
+    <item name="et_calories" type="id" />
+    <item name="lv_exerciseList" type="id" />
+    <item name="btn_viewAll_exercise" type="id" />
+    <item name="btn_viewAll_food" type="id" />
+</resources>
